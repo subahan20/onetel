@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    overflow-x: hidden;
+}
+.main_div{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 1;
+    position: relative;
+    /* position: fixed;
+    top: 0; */
+}
+.child_div{
+    width: 70vw;
+    height: 10vh;
+    background-color: gray;
+    margin-left: 15%;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.child_div_div{
+    display: flex;
+    justify-content: flex-end;
+}
+.child_div li{
+    list-style: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.child_div li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.home{
+    /* height: 20%; */
+    /* margin-top: -300px; */
+    position: relative;
+}
+.home img{
+    width: 100vw;
+    margin-top: -20%;
+}
+.homePara{
+    position: absolute;
+    top:25% ;
+    left: 50%;
+    font-weight: bolder;
+    /* padding-left: 30px;
+    padding-top: 400px; */
+    color: white;
+}
+.div1_btn input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    border:2px solid white;
+    height: 30px;
+    width: 320px;
+    
+}
+/* .heading_one{
+    margin-top: -45%;
+    padding-left: 70%;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.heading_two{
+    padding-left: 70%;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+} */
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    /* padding-top: 30%;
+    margin: 10px; */
+    gap: 20px;
+    margin-top: -5%;
+    /* margin-left: -10px; */
+    /* height: 80vh;
+    width: 100vw; */
+    background-color: black;
+}
+.cards_one{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    z-index: +1;
+}
+.cards_one h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+.cards_one p{
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+.cards_two{
+    background-color: skyblue;
+}
+.cards_three{
+    background-color: orange;
+}
+.section{
+    width: 100vw;   
+    padding-bottom: 2%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 250px; */
+    padding-top: 5%;
+    justify-content: center;
+}
+.section img{
+    height: 353px;
+    width: 450px;
+}
+.section_div h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px; */
+}
+.section_div{
+    /* height: 55vh;  */
+    width: 45%; 
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5%; */
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+.main_cards_images img {
+    width: 30%;
+    height: 50%;
+
+}
+.section_p{
+    color: white;
+    font-size: 80%;
+    font-weight: bolder;
+    padding-left: 18px;
+    /*padding-bottom: 10px;*/
+    padding-right: 5px;
+    text-align: justify;
+    padding-top: 2%;
+}
+.btn{
+    margin-top: 2%;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin-left: 20px; */
+    background: gray;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.main_cards{
+    /* margin-top: -600px; */
+    /* padding-left: 30%; */
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+.main_cards h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    /* padding-left: 250px; */
+}
+.main_cards_p{
+    /* margin-left: -150px;
+    margin-right: 100px; */
+    margin-bottom: 2%;
+    text-align: center;
+}
+.main_cards_images{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.button{
+    height: 50px;
+    width: 180px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: 25%; */
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background: transparent;
+    border: 2px solid white;
+}
+.page_section{
+    height: 70vh;
+    width: 100vw;
+    /* padding-left: 80px; */
+    padding-top: 5%;
+    background-color: rgba(0, 0, 0, 0.329);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* line-height: 30px; */
+}
+.child1{
+    height: 50%;
+    width: 20%;
+}
+.child1 p{
+    /* padding-left: 2px; */
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.315);
+    font-size: 15px;
+    font-weight: bold;
+}
+.child_div_div1{
+    display: flex;
+    margin-top: 5px;
+}
+.child1 i{
+    color: rgba(0, 0, 0, 0.315);
+    margin-top: 6px;
+}
+.child1 p{
+    color: rgba(0, 0, 0, 0.315);
+    padding-left: 8px;
+}
+.child2{
+    margin-top: 20px;
+}
+.child2 h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+}
+.child2 p{
+    padding: 5px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.315);
+    font-size: 15px;
+}
+.child3{
+    margin-top: 15px;
+}
+.child3 h1{
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+}
+.child3 p{
+    padding-right: 200px;
+    margin-top: 25px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.315);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* .div1_btn{
+    margin-top: 10px;
+    height: 30px;
+    width: 320px;
+    color: white;
+    text-align: start;
+    border: 2px solid red;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+} */
+.div1_btn input{
+    height: 30px;
+    width: 320px;
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-left: 3px;
+    background: transparent;
+}
+.div2_btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    background: transparent;
+}
+.div2_btn input{
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-mar{
+    margin-right: 100%;
+}
+.bottom{
+    height: 100px; 
+    width: 100vw; 
+    background-color: black; 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottoma_div{
+    margin-right: 300px;
+}
+.bottom_div_p{
+    color: white; 
+    margin-top: 50px; 
+    margin-left: 100px; 
+    font-size: 20px;
+}
+.bottom_div_i{
+    display: flex; 
+    padding: 2px; 
+    color: white; 
+    margin-top: 50px; 
+    margin-right: 500px; 
+    font-size: 20px; 
+    gap: 10px;
+}
+/* @media screen and (max-width:400px){
+    .child_div{
+        background: none;
+    }
+    .child_div img{
+        margin-top: -35px;
+        margin-left: 20px;
+    }
+    .child_div_div{
+        display: none;
+    }
+    .home{
+        margin-top: 0px;
+    }
+    .homePara{
+    position: absolute;
+    bottom: 420px;
+    left: 40%;
+    font-size: 5px;
+    font-weight: bolder;
+    color: white;
+    overflow-y: hidden;
+    }
+    .cards{
+        display: inline-block;
+        margin: -15px;
+        margin-left: 5%;
+
+    }
+    .cards_one > p{
+       font-size: 15px;
+       margin-right: 20px;
+    }
+    .section{
+        margin-top: -320%;
+    }
+    .section_img{
+        height: 50px;
+        width: 300px;
+        margin-left: -250px;
+        margin-top: 1050px;
+    }
+    .section_div{
+        width: 1050vw;
+        margin-top: 1400px;
+        margin-left: -250px;
+        margin-right: 50px;
+    }
+    .section_div h1{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 150px;
+    }
+    .section_div p{
+        font-size: 11px;
+        text-align: justify;
+        margin-left: 220px;
+        margin-right: 50px;
+    }
+    .btn{
+        height: 30px;
+        width: 150px;
+    }
+    .main_cards{ */
+        /* margin-left: -230px;
+        width: 100%; */
+        /* margin-top: -150px; */
+        /* margin-top: 900px;
+        margin-left: -280px;
+        text-align: justify;
+        color: red;
+        width: 100vw;
+    }
+    .main_cards h1{
+        font-size: 20px;
+        display: block;
+        width: 100vw;
+    }
+    .main_cards_p{
+        margin-left: 220px;
+        margin-right: 500px;
+        margin-top: 10px;
+        width: 50vw;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .main_cards_images{
+        /* display: block;
+        width: 100% !important; */
+        /* grid-template-rows: repeat(6,1fr); */
+        /* display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        margin-right: 100px;
+    } */
+    /* .page_section{
+        display: flex;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+    .page_child_section{
+        margin-top: -100px;
+    }
+    .page_child_section_p{
+        width: 50vw;
+        margin-left: -30px;
+    }
+    .page_child_child_section{
+        margin-top: 50px;
+        margin-bottom: 120px;
+        display: block;
+        width: 100vw;
+    }
+    .page_child_child_section p{
+        display: block;
+        height: 100px;
+        padding-top: 1000px;
+    }
+    body{
+        margin-left: 10%;
+    } */
+
+/* }  */
+.l{
+    margin-top: 10%;
+}
+.cardBody{
+    margin-top: 20%;
+}
+.card-title{
+    text-transform: capitalize;
+}
+.card-text{
+    text-transform: capitalize;
+}
+.card_head{
+    margin-top: 10%;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    left: 45%;
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+}
+.icons i{
+    padding-left: 30%;
+    padding-top: 30%;
+}
+@media screen and (max-width:400px){
+    /* .section_div {
+        width: 100%;
+        height: 100vh;
+    }
+    .main_cards_images {
+        display: grid;
+        grid-template-rows: repeat(10,1fr);
+    } */
+    /* .page_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } */
+    .heading_one{
+        font-size: 15px;
+    }
+    .heading_two{
+        font-size: 15px;
+        margin-top: -5%;
+    }
+    .child_div{
+        display: flex;
+        justify-content: center;
+    }
+    .child_div_div{
+        display: none;
+    }
+    .homePara{
+        font-size: 5px;
+    }
+    .section_div{
+        height: 353px;
+        width: 450px;
+    }
+    .page_section{
+        flex-direction: column;
+        border: 3px solid red;
+        padding-left: 10%;
+        /*padding-right: 10%;
+        padding-top: -80%; */
+        /* display: flex;
+        justify-content: center; */
+    }
+    /* .col{
+        margin-top: 100%;
+    } */
+    .child1 img{
+        margin-left: 30%;
+    }
+    .child1 p{
+        font-size: 10px;
+        width: 80vw;
+        text-align: justify;
+    }
+    .child2{
+        display: none;
+    }
+    .child3{
+        display: none;
+    }
+    .child1 img{
+        padding-left: 20%;
+        margin-top: -30%;
+        justify-content: center;
+    }
+    /* .page_child_section_p{
+        font-size: 20%;
+        text-align:center;
+        text-align: justify;
+    } */
+    /* .l{
+        margin-top: -150%;
+    }
+    .row{
+        margin-top: -10%;
+    } */
+    #card-para{
+        width: 100vw;
+        margin-left: -50%;
+    }
+    .card{
+        background-color: red;
+    }
+    .child_div_div1{
+        font-size: 10%;
+    }
+    .page_child_child_section h1{
+        font-size: 10%;
+    }
+    .page_child_child_section{
+        margin-top: 80%;
+    }
+    .page_child_child_section p{
+        font-size: 10%;
+    }
+    .page_child_child_child_section h1{
+        font-size: 10%;
+    }
+    .page_child_child_child_section p{
+        font-size: 10%;
+    }
+    .div1{
+        display: none;
+    }
+    .div1 button{
+        display: none;
+    }
+    .bottom{
+        font-size: 10px;
+        width: 100vw;
+        margin-top: -15%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom_div_p{
+        font-size: 15px;
+        margin-top: 5%;
+    }
+    .bottom_div_i i{
+        font-size: 10px;
+        margin-left: -50%;
+    }
+}
